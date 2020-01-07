@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/qiao-zhi.github.io/2020/01/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown使用介绍</title>
+    <url>/qiao-zhi.github.io/2020/01/07/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[<p>推荐一个markdown在线编辑器：<a href="http://mahua.jser.me/" target="_blank" rel="noopener">http://mahua.jser.me/</a></p>
+<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><p>Markdown 标题有两种格式。</p>
+<h2 id="1-使用-和-标记一级和二级标题-必须超过3个"><a href="#1-使用-和-标记一级和二级标题-必须超过3个" class="headerlink" title="1.使用 = 和 - 标记一级和二级标题(必须超过3个)"></a>1.使用 = 和 - 标记一级和二级标题(必须超过3个)</h2><p>= 和 - 标记语法格式如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">我展示的是一级标题</span><br><span class="line">&#x3D;&#x3D;&#x3D;</span><br><span class="line"></span><br><span class="line">我展示的是二级标题</span><br><span class="line">-----------------</span><br></pre></td></tr></table></figure>
+<p>结果如下：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_14-25-04.png" alt="mk 图标"></p>
+<h2 id="2-使用-标记"><a href="#2-使用-标记" class="headerlink" title="2.使用#标记"></a>2.使用#标记</h2><p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。注意连续的#后面有空格。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<p>结果如下：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_14-46-14.png" alt="mk 图标"></p>
+<h1 id="2-段落格式"><a href="#2-段落格式" class="headerlink" title="2.段落格式"></a>2.段落格式</h1><p>Markdown 段落没有特殊的格式，直接编写文字就好。</p>
+<h2 id="1-字体"><a href="#1-字体" class="headerlink" title="1. 字体"></a>1. 字体</h2><p>支持的字体如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure>
+<p>结果：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_14-54-25.png" alt="mk 图标"></p>
+<h2 id="2-分割线"><a href="#2-分割线" class="headerlink" title="2. 分割线"></a>2. 分割线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">----------</span><br></pre></td></tr></table></figure>
+<h2 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3. 删除线"></a>3. 删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
+<h2 id="4-下划线"><a href="#4-下划线" class="headerlink" title="4.下划线"></a>4.下划线</h2><p>下划线可以通过 HTML 的 &lt;u&gt; 标签来实现：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;&#x2F;u&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="3-列表"><a href="#3-列表" class="headerlink" title="3.列表"></a>3.列表</h1><p>Markdown 支持有序列表和无序列表。</p>
+<h2 id="1-无序列表使用星号-、加号-或是减号-作为列表标记："><a href="#1-无序列表使用星号-、加号-或是减号-作为列表标记：" class="headerlink" title="1.无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记："></a>1.无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+<p>结果：</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项<h2 id="2-有序列表使用数字并加上-号来表示，如："><a href="#2-有序列表使用数字并加上-号来表示，如：" class="headerlink" title="2. 有序列表使用数字并加上 . 号来表示，如："></a>2. 有序列表使用数字并加上 . 号来表示，如：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
+结果：</li>
+</ul>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="3-列表嵌套："><a href="#3-列表嵌套：" class="headerlink" title="3.列表嵌套："></a>3.列表嵌套：</h2><p>列表嵌套只需在子列表中的选项添加四个空格即可：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+<p>结果：</p>
+<ol>
+<li>第一项：<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h1 id="4-markdown区块"><a href="#4-markdown区块" class="headerlink" title="4.markdown区块"></a>4.markdown区块</h1><p>Markdown 区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt; 区块链</span><br><span class="line">&gt; NP</span><br></pre></td></tr></table></figure>
+<p>结果:<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_15-18-58.png" alt="mk 图标"><br>另外区块是可以嵌套的，一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套，以此类推退。区块中也可以使用列表，列表中也可以使用区块：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br><span class="line"></span><br><span class="line">　</span><br><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项</span><br></pre></td></tr></table></figure>
+<p>结果：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_15-26-02.png" alt="mk 图标"></p>
+<h4 id="补充：关于区块分割"><a href="#补充：关于区块分割" class="headerlink" title="补充：关于区块分割"></a>补充：关于区块分割</h4><p>为了使系统认为我们第一个区块已经’完全’结束，我们需要在第一个区块后键入一个换行,然后键入一个全角空格，然后就可以继续使用’&gt;’来开始第二个引用区块。<br>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line"></span><br><span class="line">　注意左边有个全角的空格</span><br><span class="line">&gt; 第一层嵌套</span><br></pre></td></tr></table></figure>
+<p>结果：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_15-48-56.png" alt="mk 图标"></p>
+<h1 id="5-markdown代码"><a href="#5-markdown代码" class="headerlink" title="5.markdown代码"></a>5.markdown代码</h1><h2 id="1-如果是段落上的一个函数或片段的代码可以用反引号把它包起来（-），例如："><a href="#1-如果是段落上的一个函数或片段的代码可以用反引号把它包起来（-），例如：" class="headerlink" title="1.如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如："></a>1.如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如：</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;printf()&#96; 函数</span><br></pre></td></tr></table></figure>
+<p>结果：<br><code>printf()</code> 函数</p>
+<h2 id="2-代码区块使用-4-个空格或者一个制表符（Tab-键）。"><a href="#2-代码区块使用-4-个空格或者一个制表符（Tab-键）。" class="headerlink" title="2.代码区块使用 4 个空格或者一个制表符（Tab 键）。"></a>2.代码区块使用 4 个空格或者一个制表符（Tab 键）。</h2><p>例如：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_17-47-55.png" alt="mk 图标"></p>
+<h2 id="3-也可以用-包裹一段代码，并指定一种语言（也可以不指定）："><a href="#3-也可以用-包裹一段代码，并指定一种语言（也可以不指定）：" class="headerlink" title="3.也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）："></a>3.也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：</h2><p>例如：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_17-49-10.png" alt="mk 图标"></p>
+<h1 id="6-markdown链接"><a href="#6-markdown链接" class="headerlink" title="6.markdown链接"></a>6.markdown链接</h1><p>链接使用方法如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line">或者</span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[百度](http:&#x2F;&#x2F;baidu.com)</span><br><span class="line">&lt;http:&#x2F;&#x2F;baidu.com&gt;</span><br></pre></td></tr></table></figure>
+<p>结果：<br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a><br><a href="http://baidu.com" target="_blank" rel="noopener">http://baidu.com</a></p>
+<h3 id="补充：高级链接"><a href="#补充：高级链接" class="headerlink" title="补充：高级链接"></a>补充：高级链接</h3><p>链接也可以用变量来代替，文档末尾附带变量地址。例如：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_17-58-58.png" alt="mk 图标"></p>
+<h1 id="6-markdown图片"><a href="#6-markdown图片" class="headerlink" title="6.markdown图片"></a>6.markdown图片</h1><p>图片语法格式如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
+<p>开头一个感叹号 !<br>接着一个方括号，里面放上图片的替代文字<br>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。<br>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![md 图标](&#x2F;img&#x2F;Markdown使用介绍&#x2F;404.png)</span><br><span class="line">![md 图标](&#x2F;img&#x2F;Markdown使用介绍&#x2F;2020-01-07_17-49-10.png &quot;悬浮上来你试试&quot;)</span><br></pre></td></tr></table></figure>
+<p>结果：</p>
+<p><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/404.png" alt="md 图标"><br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_17-49-10.png" alt="md 图标" title="悬浮上来你试试"></p>
+<h1 id="7-markdown表格"><a href="#7-markdown表格" class="headerlink" title="7.markdown表格"></a>7.markdown表格</h1><p>Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。<br>对齐方式：</p>
+<ul>
+<li>-: 设置内容和标题栏居右对齐。</li>
+<li>:- 设置内容和标题栏居左对齐。</li>
+<li>:-: 设置内容和标题栏居中对齐。</li>
+</ul>
+<p>例如：<br><img src="/img/Markdown%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/2020-01-07_18-09-02.png" alt="md 图标"></p>
+<h1 id="8-markdown其他"><a href="#8-markdown其他" class="headerlink" title="8.markdown其他"></a>8.markdown其他</h1><h2 id="1-支持的-HTML-元素"><a href="#1-支持的-HTML-元素" class="headerlink" title="1.支持的 HTML 元素"></a>1.支持的 HTML 元素</h2><p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等 。</p>
+<h2 id="2-转义"><a href="#2-转义" class="headerlink" title="2.转义"></a>2.转义</h2><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符。<br>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">&#96;   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>post1</title>
+    <url>/qiao-zhi.github.io/2020/01/07/post1/</url>
+    <content><![CDATA[<h1 id="这里是page1"><a href="#这里是page1" class="headerlink" title="这里是page1"></a>这里是page1</h1>]]></content>
+  </entry>
+</search>
