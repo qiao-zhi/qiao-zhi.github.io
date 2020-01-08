@@ -244,7 +244,7 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: /img/pay_weixin.bmp
 alipay: /img/pay_zfb.bmp
 #bitcoin: /images/bitcoin.png
