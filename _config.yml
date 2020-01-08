@@ -4,18 +4,19 @@
 
 # Site
 title: "QiaoZhi's Blog"
-subtitle: '简单的记录，莫大的方便!!!'
+subtitle: '简单的记录，莫大的方便!'
 description: '没有最好，只有更好!!!'
-keywords:
+keywords:   Java,Node.js,JS,CSS,H5+,App,Python
 author: QiaoZhi
-language: zh-CN 
+language: zh-Hans
 # 上海时区
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /qiao-zhi.github.io
+#网站根目录
+root: / 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
